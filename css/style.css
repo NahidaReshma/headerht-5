@@ -1,0 +1,91 @@
+body{
+	background-image: url("https://cdn5.vectorstock.com/i/1000x1000/64/44/abstract-blue-wave-background-blue-wave-business-vector-23726444.jpg");
+	background-repeat: repeat-x;
+	background-position: right top;
+  	background-attachment: scroll;
+}
+h1{
+	font-size: 50px;
+	font-family: verdana;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-shadow: 3px 2px white;
+	border: 2px solid black;
+	color: red;
+	background-color: skyblue;
+	margin: 50px;
+	padding: 20px;
+	box-shadow: 5px 5px 2px dodgerblue;
+}
+h2{
+	font-size: 30px;
+	font-family: verdana;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: capitalize;
+	text-shadow: 3px 2px black;
+	border: 2px solid black;
+	color: white;
+	background-color: skyblue;
+	margin: 50px;
+	padding: 20px;
+	box-shadow: -5px -5px 2px tomato;
+}
+p{
+	font-size: 20px;
+	font-family: cambria;
+	text-align: justify;
+	text-indent: 50px;
+	color: dodgerblue;
+	margin: 50px;
+	padding: 10px;
+}
+ul{
+	margin: 50px;
+	padding: 10px;
+}
+div p{
+	color: black;
+}
+div > p{
+	color: red;
+}
+div+p{
+	background-color: lightyellow;
+}
+div~p{
+	color: pink;
+}
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+a{
+	margin: 50px;
+	padding: 10px;
+	border: 3px solid black;
+}
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+a[target] {
+  background-color: yellow;
+}
